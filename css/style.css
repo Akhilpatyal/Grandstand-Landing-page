@@ -956,7 +956,9 @@ footer {
 }
 
 .footer- a img {
-    width: 150px
+    width: 150px;
+    background-color: #ffffffa1;
+    border-radius: 6px;
 }
 
 footer h3 {
@@ -2098,7 +2100,9 @@ html body .top-header.header-2 .navbutton {
 }
 
 .navbar-brand img{
-  max-width:155px; 
+  max-width:150px; 
+  background-color: #ffffffa1;
+  border-radius: 6px;
 }
 
 
