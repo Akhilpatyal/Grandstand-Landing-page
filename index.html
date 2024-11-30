@@ -481,22 +481,7 @@
 
 
    <style>
-      /* .close-btn {
-   position: absolute;
-   top: 10px;
-   right: 10px;
-   background: none;
-   border: none;
-   font-size: 20px;
-   font-weight: bold;
-   color: #ffffff;
-   cursor: pointer;
-   transition: color 0.3s;
-}
 
-.close-btn:hover {
-   color: #000;
-} */
       /* General styles for the modal form */
       #pop-form form {
          padding: 24px;
@@ -567,6 +552,13 @@
          z-index: 1040;
          /* The backdrop should be just below the modal */
       }
+      .close-btn{
+         margin-top: -12px;
+         margin-left: 80%;
+         padding: 0px !important;
+         width: 10% !important;
+      }
+
    </style>
 
    <section id="pop-form">
@@ -583,7 +575,6 @@
                            <div class="form-block">
                               <div class="form-header">
                                  <h3 class="mb10"><span>Get In Touch With Us</span></h3>
-                                 <!-- <button type="button" class="close-btn" onclick="closeModal()">×</button> -->
                                  <button type="button" class="close-btn" onclick="closeModal()">×</button>
 
                               </div>
